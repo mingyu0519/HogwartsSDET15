@@ -6,7 +6,7 @@ from time import sleep
 class TestWeChat:
 
     def setup(self):
-        caps = {"platformName": "Android", "deviceName": "hogwarts", "appPackage": "com.tencent.wework",
+        caps = {"platformName": "Android", "deviceName": "kvgedex8cexsgaoz", "appPackage": "com.tencent.wework",
                 "appActivity": ".launch.LaunchSplashActivity", "noReset": "True"}
         self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
         self.driver.implicitly_wait(5)

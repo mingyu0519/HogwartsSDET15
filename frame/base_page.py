@@ -18,7 +18,7 @@ class BasePage:
         if driver is None:
             caps = {}
             caps["platformName"] = "android"
-            caps["deviceName"] = "emulator-5554"
+            caps["deviceName"] = "kvgedex8cexsgaoz"
             caps["appPackage"] = "com.xueqiu.android"
             caps["appActivity"] = ".view.WelcomeActivityAlias"
             caps["noReset"] = "true"
